@@ -1,0 +1,150 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 12px;
+}
+
+.background_repeat {
+  background-image: url(../img/background.jfif);
+  background-repeat: repeat;
+}
+
+.header {
+  display: flex;
+  background-color: bisque;
+}
+
+.header_logo {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.header_navbar {
+  display: flex;
+  align-items: center;
+}
+
+.header_navbar-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: rgb(47, 18, 73);
+  font-size: 200%;
+  font-weight: bold;
+
+  h1 {
+    margin: 0;
+  }
+
+  .title-container {
+    background-color: #ffffffad;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+
+    .title-simbols {
+      color: orangered;
+    }
+
+    .title-com {
+      font-size: 70%;
+    }
+  }
+}
+
+.principal_section {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+
+  .principal_section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 6px 6px 0;
+    background-color: #fff;
+    width: 500px;
+    padding: 10px;
+  }
+  img {
+    border-radius: 6px 0 0 6px;
+  }
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin: 20px;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+
+    img {
+      border-radius: 6px;
+    }
+
+    p {
+      text-align: center;
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    button {
+      border: none;
+      color: rgb(54, 189, 230);
+      background-color: bisque;
+      border-radius: 6px;
+      margin: 0 20%;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 70px;
+  background-color: bisque;
+
+  .footer_social {
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}

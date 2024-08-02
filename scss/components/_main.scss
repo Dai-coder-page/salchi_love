@@ -25,13 +25,14 @@
       padding: 10px;
       margin: 20px;
   
-      &-simbols {
-        color: orangered;
-      }
-  
-      &-com {
-        font-size: 70%;
-      }
+    }
+
+    &-simbols {
+      color: orangered;
+    }
+
+    &-com {
+      font-size: 70%;
     }
   }
     
@@ -54,18 +55,22 @@
     margin: 10%;
   
     h1 {
-      background-color: #ffffff11;
+      color: $font-color;
+      background-color: $font-backgroud-color;
       border-radius: 6%;
     }
   
     h3 {
-      background-color: #ffffff11;
+      color: $font-color;
+      background-color: $font-backgroud-color;
       border-radius: 6%;
     }
   
     p {
-      background-color: #ffffff11;
+      color: $font-color;
+      background-color: $font-backgroud-color;
       border-radius: 6%;
+      padding: 10px;
     }
     img {
       max-width: 30%;

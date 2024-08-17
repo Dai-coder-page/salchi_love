@@ -96,4 +96,32 @@
   }
 
   }
+
+  .cuidados {
+    &__title {
+      &--container {
+        color: $font-color;
+        background-color: $font-backgroud-color;
+        padding: 0 5px;
+        border-radius: 6%;
+        margin: 10px 0;
+      }
+    }
+    &__text {
+
+      &--container {
+        display: flex;
+        flex-direction: column;
+        color: $font-color;
+        background-color: $font-backgroud-color;
+        border-radius: 6%;
+        padding: 10px;
+
+        ul {
+          list-style-type: circle;
+      }
+      }
+  
+    }
+  }
 }

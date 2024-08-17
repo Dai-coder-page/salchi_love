@@ -122,6 +122,21 @@ p {
       margin: 10px 0; }
     .main-container .multimedia-container .video-container {
       max-width: fit-content; }
+  .main-container .cuidados__title--container {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.68);
+    padding: 0 5px;
+    border-radius: 6%;
+    margin: 10px 0; }
+  .main-container .cuidados__text--container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.68);
+    border-radius: 6%;
+    padding: 10px; }
+    .main-container .cuidados__text--container ul {
+      list-style-type: circle; }
 
 @keyframes reducirNavbar {
   0% {
